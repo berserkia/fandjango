@@ -1,6 +1,6 @@
 <script>
     window.fbAsyncInit = function() {
-        FB.init({appId: {{ app_id }}, status: true, cookie: true, xfbml: true});    
+        FB.init({appId: {{ app_id }}, status: true, cookie: true, xfbml: true, frictionlessRequests : true});    
         {{ code|safe }}
     }
 </script>
